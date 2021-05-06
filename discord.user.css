@@ -1,0 +1,211 @@
+/* ==UserStyle==
+@name           nice Discord
+@author         ayes-web
+@description    Adds nice pattern to dark mode and yotsuba theme to white mode
+@namespace      https://github.com/ayes-web/userstyles/raw/main/discord.user.css
+@homepageURL    https://github.com/ayes-web/userstyles#discord
+@version        1.0.0
+@license        GPLv3
+==/UserStyle== */
+@-moz-document url-prefix("https://discord.com") {
+    * {
+        font-family: DaddyTimeMono Nerd Font, arial
+    }
+
+    .avatar-1BDn8e {
+        scale: 90%;
+        transform: translateY(-6px)
+    }
+    
+    .blockquoteDivider-2hH8H6 { 
+        background-color: initial;
+        color: #789922;
+        z-index: 0;
+    }
+    .blockquoteDivider-2hH8H6::before {
+        content: ">"
+    }
+    
+    
+    
+    
+    .theme-dark blockquote {
+        color: #63995b;
+    }
+    .theme-dark {
+        --background-primary: url('https://i.imgur.com/YUR3TW0.png');
+        --background-secondary: url('https://i.imgur.com/YUR3TW0.png');
+    }
+    .theme-dark .contentWrapper-SvZHNd, .inner-1ilYF7 {
+        background-color: rgba(47,49,54, 30);
+        border-radius: 10px
+    }
+    .theme-dark .sidebar-2K8pFh {
+        border-right: #292b2f 3px dotted
+    }
+    
+    .theme-dark .scrollableContainer-2NUZem {
+        border-radius: 5px
+    }
+    .theme-dark .username-1A8OIy, .theme-dark .roleColor-rz2vM0 {
+         text-shadow: 0 0 10px white;
+    }
+    
+    
+    
+    
+    
+    
+    .theme-light {
+        --background-primary: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADICAIAAACmkByiAAAAWElEQVR4AaWSwQ3AIAwDbfbfpdt0nKrPUp3QCfHgkfjsCMh47mskmU5HGvbmuuh9dVce8M4it/SfMZglGeZx/ccyu/Vsv4/N29f331AY5Bi3+hdo4A92+wXvCwR9mXztrAAAAABJRU5ErkJggg==')repeat-x top center scroll #ffffee !important;
+        --background-secondary: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADICAIAAACmkByiAAAAWElEQVR4AaWSwQ3AIAwDbfbfpdt0nKrPUp3QCfHgkfjsCMh47mskmU5HGvbmuuh9dVce8M4it/SfMZglGeZx/ccyu/Vsv4/N29f331AY5Bi3+hdo4A92+wXvCwR9mXztrAAAAABJRU5ErkJggg==')repeat-x top center scroll #ffffee !important;
+        --channeltextarea-background: #dddddd;
+        --scrollbar-auto-scrollbar-color-track: #dddddd;
+        --epic-color: #800000 !important;
+    }
+    
+    .theme-light .iconWrapper-2OrFZ1.clickable-3rdHwn svg path {
+        fill: var(--epic-color);
+    }
+    .theme-light .header-2V-4Sw, .theme-light .title-3qD0b- {
+        box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20)
+    }
+    .theme-light .content-1x5b-n {
+        background-color: #f0e0d6;
+        margin: 3px;
+        border-radius: 3px !important;
+        border: 1px solid #d9bFb7 !important;
+        margin-left: 10px;
+    }
+    .theme-light .name-uJV0GL, .theme-light .activityText-OW8WYb, .theme-light .subText-1KtqkB, .theme-light .headerText-2F0828, .theme-light .membersGroup-v9BXpm, .theme-light .activityText-yGKsKm {
+        color: var(--epic-color)
+    }
+    .theme-light .channelName-2YrOjO::after {
+        content: "/";
+    }
+    .theme-light .channelName-2YrOjO::before {
+        content: "/";
+    }
+    .theme-light .channelName-2YrOjO {
+        color: var(--epic-color);
+    }
+    .theme-light .iconContainer-1BBaeJ {
+        display: none;
+    }
+    .theme-light blockquote { 
+        color: #789922
+    }
+    .theme-light .message-2qnXI6 {
+        background-color: rgba(240,224,214,1.0) !important;
+        color: #c9948d;
+        border-radius: 3px !important;
+        border: 1px solid #d9bFb7 !important;
+        padding-left: 10px;
+        max-width: 80%;
+        margin-left: 20px;
+        margin-bottom: 4px;
+    }
+    .theme-light .markup-2BOw-j.messageContent-2qWWxC, .theme-light .wrapper-2tAnRe{
+        color: var(--epic-color);
+    }
+    .theme-light .header-23xsNx {
+        background-color: #edddd3;
+        border-bottom: 1px solid rgb(244,228,218);
+        box-shadow: inset rgba(0,0,0,.05) 0 -1px 2px;
+        width: calc(100%);
+    }
+    .theme-light .mentioned-xhSam7::before {
+        background-color: rgba(221,0,0,1);
+    }
+    .theme-light .latin12CompactTimeStamp-38a8OU {
+        right: 0 !important;
+        left: auto !important;
+    }
+    
+    .theme-light .avatar-1BDn8e {
+        display: none;
+    }
+    .theme-light .username-1A8OIy, .theme-light .roleColor-rz2vM0 {
+        color: #117743 !important;
+    }
+    .theme-light .scrollableContainer-2NUZem {
+        background-color: rgba(240,224,214,1.0) !important;
+        border-radius: 3px;
+        border-color: #d9bFb7 !important;
+        border: 1px solid transparent;
+    }
+    .theme-light .attachButtonInner-PQjIyk svg path, .theme-light .buttonWrapper-1ZmCpA svg path, .theme-light #undicord-btn svg path, .theme-light .icon-22AiRD path, .theme-light .privateChannelRecipientsInviteButtonIcon-3A3uTc polygon, .theme-light .actionIcon-PgcMM2 path, .theme-light .contents-18-Yxp svg path, .theme-light .flowerStar-1GeTsn path {
+        fill: var(--epic-color);
+    }
+    .theme-light .title-3qD0b-, .theme-light .header-2V-4Sw {
+        background-image: linear-gradient(rgb(255,239,229),rgba(240,224,214,0.9)) !important;
+        color: var(--epic-color);
+        font-weight: bolder;
+    }
+    
+    .theme-light .addButton-3bLyEA {
+        transform: scale(60%)
+    }
+    .theme-light .privateChannelRecipientsInviteButtonIcon-3A3uTc {
+        transform: scale(90%)
+    }
+    .name-3l27Hl.container-2ax-kl {
+        color: var(--epic-color);
+    }
+    .theme-light .arrow-gKvcEx path,  .theme-light .addButtonIcon-2CbG1X polygon {
+        fill: var(--epic-color);
+    }
+    .theme-light .repliedMessage-VokQwo::before {
+        --gutter: 0px;
+    }
+    .theme-light .repliedMessage-VokQwo {
+        margin-left: 25px;
+    }
+    .theme-light .panels-j1Uci_ {
+        background-color: #ffffee;
+        box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);
+    }
+    .theme-light .scroller-1Bvpku {
+        background-color: rgba(240,224,214,1.0) !important;
+        border-right: 1px solid #d9bFb7 !important;
+    }
+    .theme-light .buttonContainer-DHceWr, .theme-light .wrapper-2aW0bm {
+        border: 0px !important;
+    } 
+    .theme-light .layout-2DM8Md {
+        background-color: rgba(240,224,214,1.0) !important;
+        color: #c9948d;
+        border-radius: 3px !important;
+        border: 1px solid #d9bFb7 !important;
+        margin: 3px
+    }
+    .theme-light .unread-2lAfLh {
+        background-color: rgba(221,0,0,1);
+        border-radius: 0px;
+        height: 30px;
+        margin: 0px;
+        top: 5px;
+        width: 2px;
+        left: 9px;
+        z-index: 1
+    }
+    .theme-light .total-i6us2n {
+        background: transparent !important;
+    }
+    .theme-light .total-i6us2n::before {
+        content: "/"
+    }
+    .theme-light .total-i6us2n::after {
+        content: "]";
+    }
+    .theme-light .users-3kndPl::before {
+        content: "["
+    }
+    .theme-light .userLimit-3aerPX {
+        background: transparent;
+        margin-right: 10px
+    }
+    .theme-light .placeholder-37qJjk {
+        content: "Type something..";
+    }
+    }
