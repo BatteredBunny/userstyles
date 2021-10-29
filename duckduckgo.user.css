@@ -8,7 +8,7 @@
 @license        GPLv3
 ==/UserStyle== */
 @-moz-document domain("duckduckgo.com") {
-    .footer, .js-header-aside, .js-serp-bottom-right, .feedback-prompt, .js-header-logo {
+    .footer, .js-header-aside, .js-serp-bottom-right, .feedback-prompt {
         display: none !important;
     }
 }
