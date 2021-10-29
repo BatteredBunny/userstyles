@@ -9,12 +9,12 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://discord.com")
 {
-  .blockquoteDivider-2hH8H6 {
+  .theme-dark .blockquoteDivider-2hH8H6 {
     background-color: initial;
     color: #789922;
     z-index: 0;
   }
-  .blockquoteDivider-2hH8H6::before {
+  .theme-dark .blockquoteDivider-2hH8H6::before {
     content: ">";
   }
 
