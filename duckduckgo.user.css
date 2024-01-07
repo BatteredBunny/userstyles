@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           Clean DuckDuckGo
-@author         ayes-web
+@author         BatteredBunny
 @description    Removes branding and other clutter from the search page
-@namespace      https://github.com/ayes-web/userstyles/raw/main/duckduckgo.user.css
-@homepageURL    https://github.com/ayes-web/userstyles#clean-duckduckgo
-@version        1.0.0
+@namespace      https://github.com/BatteredBunny/userstyles/raw/main/duckduckgo.user.css
+@homepageURL    https://github.com/BatteredBunny/userstyles#clean-duckduckgo
+@version        1.0.1
 @license        GPLv3
 ==/UserStyle== */
 @-moz-document domain("duckduckgo.com") {
